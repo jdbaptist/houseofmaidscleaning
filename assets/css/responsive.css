@@ -1,0 +1,752 @@
+/*------------------------------------------------------------------------------*/
+
+
+/*                    width : 1200px
+/*------------------------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+  .navbar-collapse {
+    display: inline-block !important;
+  }
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*                    width : 991px
+/*------------------------------------------------------------------------------*/
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .topheader .Block-Search {
+    transform: translateY(-67px) !important;
+    padding: 15px !important;
+  }
+
+
+  .navbar .dropdown-menu {
+    top: 73px !important;
+    background-color: #FFF !important;
+  }
+  .Menu-Header {
+    float: none;
+    height: 74px !important;
+    width: 100%;
+    text-align: center !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 0;
+    width: 100%;
+    text-align: center !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu) li {
+    float: none !important;
+    line-height: 1px !important;
+    display: block !important
+  }
+  .dropdown.yamm-fullwidth .dropdown-menu li {
+    position: relative;
+    display: inline-block !important;
+    width: 100%;
+  }
+  .yamm-fullwidth ul.dropdown-menu div {
+    padding: 0px 15px !important;
+  }
+  .open-left>.dropdown-menu:not(.yamm-dropdown-menu) {
+    left: -101% !important;
+    top: -3px !important;
+  }
+  .dropdown-submenu>.dropdown-menu:not(.yamm-dropdown-menu) {
+    border-top: 2px solid #ffdc00 !important;
+    top: -3px !important;
+  }
+  .topheader {
+    display: none !important;
+  }
+  .option-box {
+    display: none;
+  }
+  .Block-Search input {
+    width: 80% !Important;
+    font-size: 12px;
+  }
+  .Logo-Header.col-md-4,
+  .Logo-Header.col-md-12 {
+    display: inline-block;
+    float: left;
+    position: relative;
+    padding: 0;
+    height: 100px;
+  }
+  .Menu-responsive.col-md-12 {
+    width: 80% !important;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    text-align: left !important;
+  }
+  .Header-Style4 li.has-sub.yamm-fullwidth ul {
+    width: 125% !important;
+  }
+  .Logo-Header {
+    width: 20% !important;
+  }
+
+  .Menu-Header ul li a.current:before {
+    width: 0 !important;
+  }
+  .Menu-Header ul li a:focus:active:before,
+  .Menu-Header ul li:hover a:before {
+    width: 0 !important;
+  }
+
+
+
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*                    Width : 767px
+/*------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .topheader {
+    display: none !important;
+  }
+
+  .sliderDiv h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+  .Block-Search {
+    transform: translateY(-123px) !important;
+    padding: 15px 10px !important;
+}
+
+  body {
+    overflow-x: hidden !important;
+  }
+  .topheader .Block-Search {
+    transform: translateY(-123px) !important;
+    padding: 15px 10px !important;
+  }
+  .navbar .dropdown-menu {
+    top: 53px !important;
+    bottom: auto !important;
+    background-color: #FFF !important;
+  }
+  .Menu-Header {
+    float: none;
+    height: 100% !important;
+    width: 100%;
+    text-align: center !important;
+  }
+  .Header-Style4 .Menu-Header {
+    float: none;
+    height: 53px !important;
+    width: 100%;
+    text-align: center !important;
+  }
+  .Header-Style4 .navbar .dropdown-menu {
+    top: 53px !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 0;
+    width: 100%;
+    text-align: center !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu) li {
+    float: none !important;
+    display: block !important
+  }
+  .open-left>.dropdown-menu:not(.yamm-dropdown-menu) {
+    left: -101% !important;
+    top: -3px !important;
+  }
+  .dropdown-submenu>.dropdown-menu:not(.yamm-dropdown-menu) {
+    border-top: 2px solid #ffdc00 !important;
+    top: -3px !important;
+  }
+  .option-box {
+    display: none;
+  }
+  .Block-Search input {
+    width: 80% !Important;
+    font-size: 9px;
+  }
+  .Logo-Header.col-md-4,
+  .Logo-Header.col-md-12 {
+    width: 100% !important;
+    display: inline-block;
+    float: left;
+    position: relative;
+    height: 60px;
+    padding: 0;
+  }
+  .Menu-responsive.col-md-12 {
+    width: 100% !important;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    text-align: left !important;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    display: block !important;
+    width: 100%;
+  }
+  .Menu-Header ul li a.current:before {
+    width: 0 !important;
+  }
+  .Menu-Header ul li a:focus:active:before,
+  .Menu-Header ul li:hover a:before {
+    width: 0 !important;
+  }
+  .title-section h3,
+  .Features-Block h3,
+  .Purchase-wrapper h3,
+  .TextImg-Block h3,
+  .Title-Us h3 {
+    font-size: 20px !important;
+    line-height: 27px;
+  }
+  .description-welcome p {
+    font-size: 15px !important;
+    padding: 15px 0% !important;
+  }
+  .description-section p,
+  .description-section-Features p,
+  .tabs-content li.selected p,
+  .Features-Block p,
+  .TextImg-Block p,
+  .Rights-Reserved h2,
+  .Testimonials-Block p,
+  .Process-tabs-content li.selected p {
+    padding: 0px 0% !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+  }
+  .Header-Style2 .sidebar-menu,
+  .Header-Style1 .sidebar-menu {
+    padding: 8px 10px;
+    padding: 0 !important;
+    display: inline-block !important;
+    float: right !important;
+    position: absolute;
+    right: 53px;
+    z-index: 111;
+    top: -11px;
+  }
+  .sidebar-menu button:before {
+    color: #333 !important;
+  }
+  .Header-Style4 .Menu-Header ul li {
+    line-height: 3 !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu) li {
+    line-height: 1 !important;
+    padding: 0 !Important;
+  }
+  .shop-cart-header {
+    top: 90px !important;
+  }
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*                    width : 452px
+/*------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .responsive-menu a {
+    display: block !important;
+  }
+  .topheader .right-wrapper {
+    position: relative;
+    float: none;
+    display: inline-block;
+    width: 125px;
+    width: 100%;
+  }
+  .topheader .responsive-menu {
+    padding: 8px 0px !important;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    background: #FFF;
+  }
+  .Header-Style2 .Contact-Header.col-md-6 {
+    width: 100%;
+    padding: 0px 19%;
+  }
+  .Header-Style2 .Cart-Login.col-md-6 {
+    display: none;
+  }
+  .topheader-2 .Menu-Header ul li a {
+    color: #777777 !important;
+  }
+  .Header-Agency .responsive-menu a {
+    color: #FFF !important;
+  }
+  .Menu-Header {
+    float: left;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .Menu-Header ul li a:hover:before {
+    content: " ";
+    color: #ffdc00;
+    border-top: 0px Solid #ffdc00 !important;
+    width: 20px;
+    display: block;
+    margin: auto;
+    height: 10px;
+  }
+  .Menu-Header ul li a {
+    font-size: 15px;
+    color: #777777;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    padding: 0px;
+    font-weight: 700 !important;
+    padding: 5px !important;
+    background: none !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu)>li>a:hover {
+    background: none !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a i {
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 0px !important;
+  }
+  a.dropdown-toggle.js-activated {
+    margin-bottom: 15px;
+  }
+  .topheader .Block-Search {
+    transform: translateY(-137px)!important;
+    padding: 15px 10px !important;
+  }
+  .option-box {
+    display: none;
+  }
+  .topheader {
+    display: none !important;
+  }
+  .Block-Search input {
+    width: 80% !Important;
+    font-size: 9px;
+  }
+  .Logo-Header.col-md-4,
+  .Logo-Header.col-md-12 {
+    width: 100% !important;
+    display: inline-block;
+    float: left;
+    position: relative;
+    height: 60px;
+    padding-top: 0;
+    padding-bottom: 40px;
+  }
+  .Header-Style2 .Contact-Header .PhoneNamber {
+    display: none !important;
+  }
+  .Header-Style2 .Login-Header {
+    width: 30% !important;
+  }
+  .Header-Style2 .Logo-Header.col-md-4,
+  .Header-Style2 .Logo-Header.col-md-12 {
+    padding-bottom: 0px !important;
+  }
+  .Header-Style2 .Icons-Search,
+  .Header-Style2 .responsive-menu,
+  .Header-Style2 .shopping-cart-Block {
+    padding: 0px 0px !important;
+  }
+  .Header-Style2 .Icons-shopping-cart span {
+    top: 11px !important;
+    right: -10px !important;
+  }
+  .topheader .Logo-Header.col-md-4,
+  .topheader .Logo-Header.col-md-12 {
+    width: 100% !important;
+    display: inline-block;
+    float: left;
+    padding-top: 0;
+    padding-bottom: 0px !important;
+    position: relative;
+    height: 60px;
+  }
+  .Header-Style4 .navbar-logo {
+    margin-left: 0px;
+    margin-bottom: 0 !important;
+  }
+  .Menu-responsive.col-md-12 {
+    width: 100% !important;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    text-align: left !important;
+  }
+
+  .navbar-collapse {
+    position: relative;
+    display: block !important;
+    width: 100%;
+  }
+  .navbar .yamm-fullwidth .dropdown-menu:not(.yamm-dropdown-menu) li {
+    line-height: 3 !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu) li {
+    line-height: 3 !important;
+  }
+  .dropdown.yamm-fullwidth .dropdown-menu {
+    position: relative;
+    top: 0px !important;
+  }
+  .Icons-Search,
+  .responsive-menu,
+  .shopping-cart-Block {
+    padding: 15px 0px;
+  }
+  .Icons-shopping-cart span {
+    top: 30px !important;
+    right: 85px !important;
+  }
+  .sidebar-menu {
+    display: none !important;
+  }
+  .Header-Style5 .Menu-Header ul li a i {
+    display: inline !important;
+    text-align: left !important;
+    margin-right: 15px !important;
+  }
+  .Header-Style1 .Block-Search,
+  .Header-Style5 .Block-Search,
+  .Header-Style6 .Block-Search {
+    transform: translateY(-157px) !important;
+    padding: 15px 10px !important;
+  }
+  .Navbar-Full {
+    top: 0px !important;
+  }
+
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*                    width : 250px
+/*------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden !important;
+  }
+  .Header-Style1 .responsive-menu a {
+    display: block !important;
+    padding: 0px !important;
+    margin-top: 8px;
+  }
+  .responsive-menu a {
+    display: block !important;
+  }
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    background: #FFF;
+  }
+  .topheader-2 .Menu-Header ul li a {
+    color: #777777 !important;
+  }
+  .Header-Agency .responsive-menu a {
+    color: #FFF !important;
+  }
+  .Menu-Header {
+    float: left;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .Menu-Header ul li a:hover:before {
+    content: " ";
+    color: #ffdc00;
+    border-top: 0px Solid #ffdc00 !important;
+    width: 20px;
+    display: block;
+    margin: auto;
+    height: 10px;
+  }
+  .Menu-Header ul li a {
+    font-size: 15px;
+    color: #777777;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    padding: 0px;
+    font-weight: 700 !important;
+    padding: 5px !important;
+    background: none !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu)>li>a:hover {
+    background: none !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu) li a i {
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 0px !important;
+  }
+  a.dropdown-toggle.js-activated {
+    margin-bottom: 15px;
+  }
+  .topheader .Block-Search {
+    transform: translateY(-62px) !important;
+    position: fixed !important;
+    top: 0 !important;
+    padding: 15px 10px !important;
+  }
+  .option-box {
+    display: none;
+  }
+  .topheader {
+    display: none !important;
+  }
+  .Block-Search input {
+    width: 80% !important;
+    font-size: 9px;
+  }
+  .Header-Style2 .Logo-Header.col-md-4,
+  .Header-Style2 .Logo-Header.col-md-12 {
+    width: 100% !important;
+    display: inline-block;
+    float: left;
+    padding-top: 0;
+    padding-bottom: 00px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    height: 60px;
+  }
+  .Header-Style4 a.responsive-menu.pull-right {
+    padding: 8px 10px !important;
+    margin-left: 0px;
+    margin-left: 0px;
+  }
+  .Menu-responsive.col-md-12 {
+    width: 100% !important;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    text-align: left !important;
+  }
+  .navbar-logo {
+    padding: 0 !important;
+    font-size: 18px;
+    line-height: 20px;
+    background: url(../images/logo/Logo-Header.png) no-repeat center !important;
+    width: 100% !important;
+    height: 90px;
+    margin-left: 0 !important;
+    display: inline-block;
+  }
+  .navbar-collapse {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+  .Menu-Header ul li a.current:before {
+    width: 0 !important;
+  }
+  .Menu-Header ul li a:focus:active:before,
+  .Menu-Header ul li:hover a:before {
+    width: 0 !important;
+  }
+  .title-section h3,
+  .Features-Block h3,
+  .Purchase-wrapper h3,
+  .TextImg-Block h3,
+  .Title-Us h3 {
+    font-size: 20px !important;
+    line-height: 27px;
+  }
+  .description-welcome p {
+    font-size: 15px !important;
+    padding: 15px 0% !important;
+  }
+  .Icons-shopping-cart span {
+    top: 32px !important;
+    right: 90px !important;
+  }
+  .topheader .Icons-shopping-cart span {
+    top: 27px !important;
+    right: 0px !important;
+  }
+  .Icons-Search {
+    padding: 0 !important;
+    display: inline-block !important;
+    float: right !important;
+    position: absolute;
+    right: 60px;
+    z-index: 111;
+    top: 15px;
+  }
+  .responsive-menu {
+    padding: 8px 10px !important;
+  }
+  .right-wrapper {
+    position: relative;
+    display: inline-block;
+    float: right;
+  }
+  .tp-simpleresponsive img {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    display: none !important;
+  }
+  .metis.tparrows {
+    background: #fff;
+    padding: 0px !important;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  .topheader .shopping-cart-Block {
+    float: left;
+    display: block;
+    padding: 15px 0px;
+    position: absolute;
+    left: -20px;
+  }
+  .dropdown.yamm-fullwidth .dropdown-menu {
+    position: relative;
+    top: 0px !important;
+  }
+  .sidebar-menu {
+    display: none !important;
+  }
+  .yamm-fullwidth ul.dropdown-menu div {
+    border-right: 0px !important;
+    width: 100%;
+  }
+  .navbar .yamm-fullwidth .dropdown-menu:not(.yamm-dropdown-menu) li {
+    line-height: 3 !important;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .navbar .dropdown-menu:not(.yamm-dropdown-menu) li {
+    line-height: 3 !important;
+  }
+  .TopBlock-Header {
+    width: 100%;
+    border-bottom: 1px Solid #e6e6e6;
+    display: none !important;
+  }
+  .Header-Style5 .Menu-Header ul li a i {
+    display: inline !important;
+    text-align: left !important;
+    margin-right: 15px !important;
+  }
+  .Block-Search {
+    transform: translateY(-157px) !important;
+    padding: 15px 0px;
+  }
+  .Navbar-Full {
+    top: 0px !important;
+  }
+  .Header-Style2 .Block-Search {
+    transform: translateY(-123px) !important;
+    padding: 15px 10px !important;
+  }
+  .Login-Header {
+    padding: 0px 0px 34px 0px !important;
+    width: 100% !important;
+  }
+  .topheader .right-wrapper {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 100%;
+  }
+}
+
+
+/*------------------------------------------------------------------------------*/
+
+
+/*                    width : 320px
+/*------------------------------------------------------------------------------*/
+
+@media only screen and (max-width: 350px) {
+  .topheader .right-wrapper {
+    position: relative;
+    text-align: center;
+    width: 100px;
+    display: inline-block;
+  }
+  .navbar-logo {
+    padding: 0 !important;
+    width: 108% !important;
+    margin-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1024px)
+{
+ .main-text {
+    transform: translate(-50%, -160%);
+  }
+
+}
+
+@media screen and (max-width: 991px)
+{
+
+  .main-text {
+    transform: translate(-50%, -129%);
+}
+}
+
+@media screen and (max-width: 768px)
+{
+  .main-text {
+    transform: translate(-50%, -99%);
+}
+
+
+#cssmenu>ul>li>a {
+    padding: 38px 15px;
+    font-size: 13px;
+    }
+}

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"cleaning.contactqueries"}],"uuid":"46caed73e8f942e3bc881f2e3ff7dae7"}

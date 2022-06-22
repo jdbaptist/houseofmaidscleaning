@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+		<title>Service Provider</title>
+
+		<style>
+			body {
+				font-family: 'Poppins', sans-serif;
+			}
+
+			.main {
+				width: 100% !important;
+				max-width: 600px !important;
+				background: #c0ebf945 !important;
+				box-shadow: 1px 1px 10px -3px #ccc !important;
+				margin: auto !important;
+				padding: 25px !important;
+				margin-top: 0px !important;
+				margin-bottom: 30px !important;
+				position: relative !important;
+			}
+
+			td.f-pswd {
+				text-align: center;
+				text-transform: uppercase;
+			}
+
+			td.f-pswd h2 span {
+				display: block;
+			}
+
+			a.btnfswd {
+				background-color: #00b3ef;
+				border: none;
+				color: white;
+				padding: 15px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 4px 2px;
+				cursor: pointer;
+				margin-top: 40px;
+			}
+
+			td.img-pswd {
+				text-align: center;
+			}
+
+			td.img-pswd img {
+				text-align: center;
+				margin-top: 50px;
+				margin-bottom: 30px;
+			}
+
+			td.f-pswd h2 {
+				margin-top: 30px;
+			}
+
+			td.f-pswd.text {
+				text-align: left;
+				text-transform: none;
+				font-size: 16px;
+				padding: 10px 20px;
+				width: 50%;
+			}
+
+			tr:nth-child(even) {
+				background-color: #d2f4ff;
+			}
+		</style>
+	</head>
+
+	<body style="padding: 0; margin: 0">
+		<div class="main">
+			<table class="table" width="100%" width="600px" border="0" cellpadding="0" cellspacing="0" align="center">
+				<thead>
+					<tr>
+						<th colspan="2"><img src="https://houseofmaidscleaningservices.co.uk/cleaning-backend/emailTemplatePics/logo.png" width="350px;" /></th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td colspan="2" class="img-pswd"><img src="https://houseofmaidscleaningservices.co.uk/cleaning-backend/emailTemplatePics/service-detail.svg" width="350px;" /></td>
+					</tr>
+
+					<tr>
+						<td colspan="2" class="f-pswd">
+							<h2>Booking Details<span></span></h2>
+						</td>
+					</tr>
+
+					<tr>
+						<td class="f-pswd text">Customer Name</td>
+
+						<td class="f-pswd text"><%=name%></td>
+					</tr>
+
+					<tr>
+						<td class="f-pswd text">Service Name</td>
+
+						<td class="f-pswd text"><%=serviceName%></td>
+					</tr>
+
+					<tr>
+						<td class="f-pswd text">Email</td>
+
+						<td class="f-pswd text"><%=email%></td>
+					</tr>
+
+					<tr>
+						<td class="f-pswd text">Location</td>
+
+						<td class="f-pswd text"><%=location%></td>
+					</tr>
+
+					<tr>
+						<td class="f-pswd text">Address</td>
+
+						<td class="f-pswd text"><%=address%></td>
+					</tr>
+
+					<tr>
+						<td class="f-pswd text">Day, Time</td>
+
+						<td class="f-pswd text"><%=date%></td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</body>
+</html>

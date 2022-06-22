@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"cleaning.faqs"}],"uuid":"d55ff878429b4d7b8d30257755c6e9c2"}

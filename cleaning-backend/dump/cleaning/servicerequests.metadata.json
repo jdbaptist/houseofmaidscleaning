@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"cleaning.servicerequests"},{"v":{"$numberInt":"2"},"unique":true,"key":{"orderId":{"$numberInt":"1"}},"name":"orderId_1","ns":"cleaning.servicerequests","background":true}],"uuid":"d1559166a2e04393bd73a9a6c0a89e22"}
